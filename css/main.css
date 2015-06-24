@@ -145,3 +145,33 @@ h3 {
 .info-section__description {
     font-style: italic;
 }
+
+.education-experience img {
+    float: left;
+    width: 180px;
+}
+
+.education-experience article {
+    overflow: hidden;
+}
+
+.education-experience__list li {
+    margin-top: 35px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.education-experience__list li article h3 {
+    float: left;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.education-experience__list li article p {
+    text-align: left;
+}
+
+.education-experience__list li article img {
+    display: inline-block;
+}
