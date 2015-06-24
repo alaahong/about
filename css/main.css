@@ -17,7 +17,7 @@ body {
 }
 
 .container p {
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 50px;
 }
 
@@ -149,6 +149,7 @@ h3 {
 .education-experience img {
     float: left;
     width: 180px;
+    height: auto;
 }
 
 .education-experience article {
@@ -157,8 +158,8 @@ h3 {
 
 .education-experience__list li {
     margin-top: 35px;
-    margin-right: 30px;
-    display: inline-block;
+    display: inline;
+    list-style-image: none;
 }
 
 .education-experience__list li article h3 {
@@ -173,5 +174,23 @@ h3 {
 }
 
 .education-experience__list li article img {
-    display: inline-block;
+    display: inline;
+}
+
+.photos__list {
+    box-sizing: border-box;
+}
+
+.photos__list img {
+    width: 20%;
+    padding: 10px;
+    display: inline;
+}
+
+.photos__list {
+    display: inline;
+}
+
+.photos__list :before, .photos__list:after {
+    box-sizing: inherit;
 }
