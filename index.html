@@ -230,24 +230,26 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         </header>
         <ul class="get-in-touch__list">
             <li>
-                <a href="#"><img src="img/fb-icon.png" alt=""></a>
+                <a href="#"><img src="img/fb-icon.png" alt="Facebook"></a>
 
                 <p>Facebook</p>
             </li>
             <li>
-                <img src="img/twitter-icon.png" alt="">
+                <a href="https://github.com/alaahong"> <img src="img/github_icon2.png" alt="Github">
 
-                <p>Twitter</p>
+                    <p>Github</p></a>
             </li>
             <li>
-                <img src="img/linkedin-icon.png" alt="">
+                <a href="https://cn.linkedin.com/in/alaahong"> <img src="img/linkedin-icon.png" alt="LinkedIn">
 
-                <p>LinkedIn</p>
+                    <p>LinkedIn</p></a>
+
             </li>
             <li>
-                <img src="img/email-icon.png" alt="">
+                <a href="mailto:ian.zhangzhe@gmail.com"> <img src="img/email-icon.png" alt="Email">
 
-                <p>ian.zhangzhe@gmail.com</p>
+                    <p>Email</p></a>
+
             </li>
         </ul>
     </section>
@@ -257,14 +259,27 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
             <h2>Or...Leave a Message</h2>
         </header>
         <form action="">
-            <label for="name">Name</label>
-            <input name="name" id="name" type="text">
-            <label for="email">Email</label>
-            <input name="email" id="email" type="email">
-            <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
-            <button type="submit">Submit</button>
+            <div class="padding_leave">
+                <div class="box"><label class="outside" for="name">Name</label>
+
+                    <input id="name" class="text_width" type="text">
+
+                </div>
+                <div class="box"><label class="outside" for="email">Email</label>
+                    <input id="email" class="text_width"  type="text">
+
+                </div>
+                <div class="box">
+
+                    <label class="outside" for="message">Message</label>
+                    <textarea cols="35" class="text_width" id="message"></textarea>
+                </div>
+                <div class="padding_margin">
+                    <button class="padding_box" type="submit">Submit</button>
+                </div>
+            </div>
         </form>
+
     </section>
 
 </div>
